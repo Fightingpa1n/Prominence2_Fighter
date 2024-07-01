@@ -1,1 +1,1 @@
-# Prominence2_Fighter
+# Prominence II [Fighter]
