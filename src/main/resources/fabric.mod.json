@@ -16,10 +16,10 @@
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"net.fightingpainter.providence.main.ProvidenceEmberForge"
+			"net.fightingpainter.providence.main.Main"
 		],
 		"fabric-datagen": [
-			"net.fightingpainter.providence.main.ProvidenceEmberForgeDataGenerator"
+			"net.fightingpainter.providence.main.DataGenerator"
 		]
 	},
 	"mixins": [
