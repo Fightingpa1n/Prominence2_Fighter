@@ -1,4 +1,4 @@
-package net.fightingpainter.providence.main.mixin;
+package net.fightingpainter.providence.addon.mixin;
 
 import net.minecraft.server.MinecraftServer;
 import org.spongepowered.asm.mixin.Mixin;
