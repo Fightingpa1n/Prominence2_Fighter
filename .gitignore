@@ -2,11 +2,11 @@
 .minecraft/**
 
 
-#Mods Folder
+# Mods Folder
 !.minecraft/mods/
 .minecraft/mods/*
 
-#Mods
+# Mods
 !.minecraft/mods/3dskinlayers-fabric-1.5.4-mc1.20.1.jar
 !.minecraft/mods/Ad-Astra-Giselle-Addon-fabric-1.20.1-5.6.jar
 !.minecraft/mods/advancednetherite-fabric-2.0.2-1.20.1.jar
@@ -118,7 +118,7 @@
 !.minecraft/mods/dragonfight-fabric-1.20.1-4.1.jar
 !.minecraft/mods/drippyloadingscreen_fabric_3.0.2_MC_1.20.1.jar
 !.minecraft/mods/dummmmmmy-1.20-1.8.10-fabric.jar
-!.minecraft/mods/dungeons-and-taverns-3.0.3 [Fabric].jar
+!.minecraft/mods/dungeons-and-taverns-3.0.3.jar
 !.minecraft/mods/DungeonsArise-1.20.1-2.1.57-fabric-release.jar
 !.minecraft/mods/dynamictrim-1.3.2-fabric+1.20.1.jar
 !.minecraft/mods/eating-animation-1.20+1.9.5-CMDfix.jar
@@ -270,7 +270,7 @@
 !.minecraft/mods/paladins-1.0.4+1.20.1.jar
 !.minecraft/mods/Patchouli-1.20.1-84-FABRIC.jar
 !.minecraft/mods/Pehkui-3.7.11+1.14.4-1.20.2.jar
-!.minecraft/mods/Philips-Ruins1.20.1-2.6[Fabric].jar
+!.minecraft/mods/Philips-Ruins1.20.1-2.6.jar
 !.minecraft/mods/PickUpNotifier-v8.0.0-1.20.1-Fabric.jar
 !.minecraft/mods/PigPen-Fabric-1.20.1-15.0.2.jar
 !.minecraft/mods/Ping-Wheel-1.7.0-fabric-1.20.1.jar
@@ -392,23 +392,46 @@
 !.minecraft/mods/Zoomify-2.11.2.jar
 
 
-#Resourcepack Folder
+# Resourcepacks Folder
 !.minecraft/resourcepacks/
 .minecraft/resourcepacks/*
 
-#Resourcepacks
+# Resourcepacks
+!.minecraft/resourcepacks/backpacked_recipe_fix_datapack.zip
+!.minecraft/resourcepacks/Enhanced_Boss_Bars.zip
+!.minecraft/resourcepacks/GamerAxeRebalance.zip
+!.minecraft/resourcepacks/HardeningCatalystRebalance.zip
+!.minecraft/resourcepacks/HTP-Aether_redux-TranslationPack-v1.0.0.zip
+!.minecraft/resourcepacks/HTP-Betterarcheology-TranslationPack-v1.0.0.zip
+!.minecraft/resourcepacks/HTP-Deep_aether-TranslationPack-v1.0.0.zip
+!.minecraft/resourcepacks/HTP-Invoke-TranslationPack-vunknown.zip
+!.minecraft/resourcepacks/HTP-Minecells-TranslationPack-v1.0.0.zip
+!.minecraft/resourcepacks/HTP-Spell_power-TranslationPack-vunknown.zip
+!.minecraft/resourcepacks/Icons.zip
+!.minecraft/resourcepacks/LessStructures-SpacingTweaks-1.20.1-2.1.56.zip
+!.minecraft/resourcepacks/MandalasGUI+Modded_Dakmode_v4.5.zip
+!.minecraft/resourcepacks/Mandalas_Legacy_Gui_Background.zip
+!.minecraft/resourcepacks/NoBushyLeaves.zip
 !.minecraft/resourcepacks/Providence_Pack/
 !.minecraft/resourcepacks/Providence_Pack/*
 !.minecraft/resourcepacks/Providence_Pack/**
-!.minecraft/resourcepacks/Enhanced_Boss_Bars.zip
-!.minecraft/resourcepacks/MandalasGUI+Modded_Dakmode_v4.5.zip
+!.minecraft/resourcepacks/Repurposed_Structures-Farmers_Delight_v6.zip
+!.minecraft/resourcepacks/Repurposed_Structures-Friends_And_Foes_v5.zip
+!.minecraft/resourcepacks/RunicGrimoireDisabler.zip
+!.minecraft/resourcepacks/Scarecrow_Obliterator.zip
+!.minecraft/resourcepacks/SkyVillages-FarmersDelightCompat-1.20.1-1.0.3.zip
+!.minecraft/resourcepacks/SkyVillages-GraveyardCompat-1.20.1-1.0.3.zip
+!.minecraft/resourcepacks/SkyVillages-SupplementariesCompat-1.20.1-1.0.3.1.zip
+!.minecraft/resourcepacks/SkyVillages-WaystonesCompat-1.20.1-1.0.3-fabric.zip
+!.minecraft/resourcepacks/TravelersComfortCompat.zip
+!.minecraft/resourcepacks/WDA-NoFlyingStructures-1.18.2-1.19.2.zip
 
 
-#Config Folder
+# Configs Folder
 !.minecraft/config/
 .minecraft/config/*
 
-#config
+# Configs
 !.minecraft/config/adaptive-tooltips.json
 !.minecraft/config/adventurez.json5
 !.minecraft/config/ad_astra.jsonc
@@ -471,7 +494,11 @@
 !.minecraft/config/bettercombat/server.json5
 !.minecraft/config/betterdeserttemples/
 .minecraft/config/betterdeserttemples/*
-!.minecraft/config/betterdeserttemples/fabric-1_20
+!.minecraft/config/betterdeserttemples/fabric-1_20/
+.minecraft/config/betterdeserttemples/fabric-1_20/*
+!.minecraft/config/betterdeserttemples/fabric-1_20/armorstands.json
+!.minecraft/config/betterdeserttemples/fabric-1_20/itemframes.json
+!.minecraft/config/betterdeserttemples/fabric-1_20/README.txt
 !.minecraft/config/betterdeserttemples/README.txt
 !.minecraft/config/betterdeserttemples-fabric-1_20.toml
 !.minecraft/config/betterdungeons-fabric-1_20.toml
@@ -486,7 +513,10 @@
 !.minecraft/config/betterend/portals.json
 !.minecraft/config/betterfortresses/
 .minecraft/config/betterfortresses/*
-!.minecraft/config/betterfortresses/fabric-1_20
+!.minecraft/config/betterfortresses/fabric-1_20/
+.minecraft/config/betterfortresses/fabric-1_20/*
+!.minecraft/config/betterfortresses/fabric-1_20/itemframes.json
+!.minecraft/config/betterfortresses/fabric-1_20/README.txt
 !.minecraft/config/betterfortresses/README.txt
 !.minecraft/config/betterfortresses-fabric-1_20.toml
 !.minecraft/config/betterfpsdist.json
@@ -503,7 +533,13 @@
 !.minecraft/config/betteroceanmonuments-fabric-1_20.toml
 !.minecraft/config/betterstrongholds/
 .minecraft/config/betterstrongholds/*
-!.minecraft/config/betterstrongholds/fabric-1_20
+!.minecraft/config/betterstrongholds/fabric-1_20/
+.minecraft/config/betterstrongholds/fabric-1_20/*
+!.minecraft/config/betterstrongholds/fabric-1_20/armorstands.json
+!.minecraft/config/betterstrongholds/fabric-1_20/itemframes.json
+!.minecraft/config/betterstrongholds/fabric-1_20/ores.json
+!.minecraft/config/betterstrongholds/fabric-1_20/rareblocks.json
+!.minecraft/config/betterstrongholds/fabric-1_20/README.txt
 !.minecraft/config/betterstrongholds/README.txt
 !.minecraft/config/betterstrongholds-fabric-1_20.toml
 !.minecraft/config/betterthirdperson.json5
@@ -582,7 +618,9 @@
 !.minecraft/config/dark-enchanting-v1.json5
 !.minecraft/config/de/
 .minecraft/config/de/*
-!.minecraft/config/de/mari_023
+!.minecraft/config/de/mari_023/
+.minecraft/config/de/mari_023/*
+!.minecraft/config/de/mari_023/ae2wtlib.json5
 !.minecraft/config/debugify-descriptions.json
 !.minecraft/config/debugify.json
 !.minecraft/config/derelict.json5
@@ -605,11 +643,22 @@
 !.minecraft/config/easyanvils-server.toml
 !.minecraft/config/eldritch_end/
 .minecraft/config/eldritch_end/*
-!.minecraft/config/eldritch_end/biomes
-!.minecraft/config/eldritch_end/bosses
+!.minecraft/config/eldritch_end/biomes/
+.minecraft/config/eldritch_end/biomes/*
+!.minecraft/config/eldritch_end/biomes/hasturian_wastes.json
+!.minecraft/config/eldritch_end/biomes/primordial_abyss.json
+!.minecraft/config/eldritch_end/bosses/
+.minecraft/config/eldritch_end/bosses/*
+!.minecraft/config/eldritch_end/bosses/hastur.json
 !.minecraft/config/eldritch_end/eldritch_end-client.json
-!.minecraft/config/eldritch_end/entities
-!.minecraft/config/eldritch_end/mechanics
+!.minecraft/config/eldritch_end/entities/
+.minecraft/config/eldritch_end/entities/*
+!.minecraft/config/eldritch_end/entities/aberration.json
+!.minecraft/config/eldritch_end/entities/dendler.json
+!.minecraft/config/eldritch_end/entities/tentacle.json
+!.minecraft/config/eldritch_end/mechanics/
+.minecraft/config/eldritch_end/mechanics/*
+!.minecraft/config/eldritch_end/mechanics/corruption.json
 !.minecraft/config/emi.css
 !.minecraft/config/EmiLootConfig_v1.json
 !.minecraft/config/emitrades.json5
@@ -634,22 +683,8 @@
 !.minecraft/config/fallingleaves.json
 !.minecraft/config/fallingtree.json
 !.minecraft/config/fancymenu/
-.minecraft/config/fancymenu/*
-!.minecraft/config/fancymenu/animations
-!.minecraft/config/fancymenu/assets
-!.minecraft/config/fancymenu/config.txt
-!.minecraft/config/fancymenu/customizablemenus.txt
-!.minecraft/config/fancymenu/customization
-!.minecraft/config/fancymenu/custom_gui_screens.txt
-!.minecraft/config/fancymenu/extensions
-!.minecraft/config/fancymenu/layout_editor
-!.minecraft/config/fancymenu/legacy_checklist.txt
-!.minecraft/config/fancymenu/locals
-!.minecraft/config/fancymenu/menu_identifiers.db
-!.minecraft/config/fancymenu/minecraftwindow
-!.minecraft/config/fancymenu/options.txt
-!.minecraft/config/fancymenu/ui_themes
-!.minecraft/config/fancymenu/user_variables.db
+!.minecraft/config/fancymenu/*
+!.minecraft/config/fancymenu/**
 !.minecraft/config/farmersdelight-client.toml
 !.minecraft/config/farmersdelight-common.toml
 !.minecraft/config/farmersdelight.json
@@ -662,8 +697,8 @@
 !.minecraft/config/friendsandfoes.json
 !.minecraft/config/frostiful.json
 !.minecraft/config/ftbquests/
-.minecraft/config/ftbquests/*
-!.minecraft/config/ftbquests/quests
+!.minecraft/config/ftbquests/*
+!.minecraft/config/ftbquests/**
 !.minecraft/config/fwaystones/
 .minecraft/config/fwaystones/*
 !.minecraft/config/fwaystones/config.json5
@@ -699,9 +734,35 @@
 !.minecraft/config/iris.properties
 !.minecraft/config/ironchests/
 .minecraft/config/ironchests/*
-!.minecraft/config/ironchests/chests
+!.minecraft/config/ironchests/chests/
+.minecraft/config/ironchests/chests/*
+!.minecraft/config/ironchests/chests/barrels/
+.minecraft/config/ironchests/chests/barrels/*
+!.minecraft/config/ironchests/chests/barrels/copper.json
+!.minecraft/config/ironchests/chests/barrels/crystal.json
+!.minecraft/config/ironchests/chests/barrels/diamond.json
+!.minecraft/config/ironchests/chests/barrels/gold.json
+!.minecraft/config/ironchests/chests/barrels/iron.json
+!.minecraft/config/ironchests/chests/barrels/netherite.json
+!.minecraft/config/ironchests/chests/barrels/obsidian.json
+!.minecraft/config/ironchests/chests/copper.json
+!.minecraft/config/ironchests/chests/crystal.json
+!.minecraft/config/ironchests/chests/diamond.json
+!.minecraft/config/ironchests/chests/dirt.json
+!.minecraft/config/ironchests/chests/gold.json
+!.minecraft/config/ironchests/chests/iron.json
+!.minecraft/config/ironchests/chests/netherite.json
+!.minecraft/config/ironchests/chests/obsidian.json
 !.minecraft/config/ironchests/defaults.properties
-!.minecraft/config/ironchests/upgrade_types
+!.minecraft/config/ironchests/upgrade_types/
+.minecraft/config/ironchests/upgrade_types/*
+!.minecraft/config/ironchests/upgrade_types/copper.json
+!.minecraft/config/ironchests/upgrade_types/crystal.json
+!.minecraft/config/ironchests/upgrade_types/diamond.json
+!.minecraft/config/ironchests/upgrade_types/gold.json
+!.minecraft/config/ironchests/upgrade_types/iron.json
+!.minecraft/config/ironchests/upgrade_types/netherite.json
+!.minecraft/config/ironchests/upgrade_types/obsidian.json
 !.minecraft/config/itemborders-common.toml
 !.minecraft/config/item_obliterator.json5
 !.minecraft/config/jade/
@@ -723,10 +784,26 @@
 !.minecraft/config/kleeslabs-common.toml
 !.minecraft/config/konkrete/
 .minecraft/config/konkrete/*
-!.minecraft/config/konkrete/locals
+!.minecraft/config/konkrete/locals/
+.minecraft/config/konkrete/locals/*
+!.minecraft/config/konkrete/locals/de_de.local
+!.minecraft/config/konkrete/locals/en_us.local
+!.minecraft/config/konkrete/locals/pl_pl.local
+!.minecraft/config/konkrete/locals/pt_br.local
 !.minecraft/config/ktnilcks/
 .minecraft/config/ktnilcks/*
-!.minecraft/config/ktnilcks/nodes
+!.minecraft/config/ktnilcks/nodes/
+.minecraft/config/ktnilcks/nodes/*
+!.minecraft/config/ktnilcks/nodes/MP/
+.minecraft/config/ktnilcks/nodes/MP/*
+!.minecraft/config/ktnilcks/nodes/MP/72_5_46_67-22666.ilcks
+!.minecraft/config/ktnilcks/nodes/MP/72_5_46_67-22666.ilcks.old
+!.minecraft/config/ktnilcks/nodes/MP/realms_prominence_gg-25555.ilcks
+!.minecraft/config/ktnilcks/nodes/MP/realms_prominence_gg-25555.ilcks.old
+!.minecraft/config/ktnilcks/nodes/SP/
+.minecraft/config/ktnilcks/nodes/SP/*
+!.minecraft/config/ktnilcks/nodes/SP/New World.ilcks
+!.minecraft/config/ktnilcks/nodes/SP/New World.ilcks.old
 !.minecraft/config/lambdabettergrass.toml
 !.minecraft/config/lambdynlights.toml
 !.minecraft/config/languagereload.json
@@ -801,7 +878,24 @@
 !.minecraft/config/openloader/
 .minecraft/config/openloader/*
 !.minecraft/config/openloader/advanced_options.json
-!.minecraft/config/openloader/data
+!.minecraft/config/openloader/data/
+.minecraft/config/openloader/data/*
+!.minecraft/config/openloader/data/ElocinDev-Travelers-Comfort-Datapack.zip
+!.minecraft/config/openloader/data/GamerAxeRebalance.zip
+!.minecraft/config/openloader/data/hardening_catalyst_blacklist.zip
+!.minecraft/config/openloader/data/ichphilipp-s-endcity-better-end-1-18-1.zip
+!.minecraft/config/openloader/data/LessStructures-SpacingTweaks-1.20.1-2.1.56.zip
+!.minecraft/config/openloader/data/Repurposed_Structures-Farmers_Delight_v6.zip
+!.minecraft/config/openloader/data/Repurposed_Structures-Friends_And_Foes_v5.zip
+!.minecraft/config/openloader/data/Scarecrow_Obliterator.zip
+!.minecraft/config/openloader/data/simplyswords_join_book.zip
+!.minecraft/config/openloader/data/SkyVillages-FarmersDelightCompat-1.20.1-1.0.3.zip
+!.minecraft/config/openloader/data/SkyVillages-GraveyardCompat-1.20.1-1.0.3.zip
+!.minecraft/config/openloader/data/SkyVillages-PracticalPlushiesCompat-1.20.1-1.0.3.2.zip
+!.minecraft/config/openloader/data/SkyVillages-SupplementariesCompat-1.20.1-1.0.3.1.zip
+!.minecraft/config/openloader/data/SkyVillages-WaystonesCompat-1.20.1-1.0.3-fabric.zip
+!.minecraft/config/openloader/data/WDA-NoFlyingStructures-1.18.2-1.19.2.zip
+!.minecraft/config/openloader/data/WDA-VanillaLoot-1.18.2-1.19.2-0.0.1.zip
 !.minecraft/config/openpartiesandclaims-server.toml
 !.minecraft/config/overflowingbars-client.toml
 !.minecraft/config/oxidized_config.json
@@ -856,7 +950,15 @@
 !.minecraft/config/protection_balancer.json5
 !.minecraft/config/puffish_skills/
 .minecraft/config/puffish_skills/*
-!.minecraft/config/puffish_skills/categories
+!.minecraft/config/puffish_skills/categories/
+.minecraft/config/puffish_skills/categories/*
+!.minecraft/config/puffish_skills/categories/prom/
+.minecraft/config/puffish_skills/categories/prom/*
+!.minecraft/config/puffish_skills/categories/prom/category.json
+!.minecraft/config/puffish_skills/categories/prom/connections.json
+!.minecraft/config/puffish_skills/categories/prom/definitions.json
+!.minecraft/config/puffish_skills/categories/prom/experience.json
+!.minecraft/config/puffish_skills/categories/prom/skills.json
 !.minecraft/config/puffish_skills/config.json
 !.minecraft/config/puzzle.json
 !.minecraft/config/puzzlesapi-iteminteractions-client.toml
@@ -954,7 +1056,9 @@
 .minecraft/config/spark/*
 !.minecraft/config/spark/activity.json
 !.minecraft/config/spark/config.json
-!.minecraft/config/spark/tmp
+!.minecraft/config/spark/tmp/
+.minecraft/config/spark/tmp/*
+!.minecraft/config/spark/tmp/about.txt
 !.minecraft/config/Spectrum.json5
 !.minecraft/config/spellbladenext/
 .minecraft/config/spellbladenext/*
@@ -1030,8 +1134,16 @@
 !.minecraft/config/universal-graves/
 .minecraft/config/universal-graves/*
 !.minecraft/config/universal-graves/config.json
-!.minecraft/config/universal-graves/example_models
-!.minecraft/config/universal-graves/models
+!.minecraft/config/universal-graves/example_models/
+.minecraft/config/universal-graves/example_models/*
+!.minecraft/config/universal-graves/example_models/corpse_player.json
+!.minecraft/config/universal-graves/example_models/corpse_zombie.json
+!.minecraft/config/universal-graves/example_models/default.json
+!.minecraft/config/universal-graves/example_models/player_head.json
+!.minecraft/config/universal-graves/example_models/soul.json
+!.minecraft/config/universal-graves/models/
+.minecraft/config/universal-graves/models/*
+!.minecraft/config/universal-graves/models/example.json
 !.minecraft/config/uwrad.properties
 !.minecraft/config/vanityslots.json
 !.minecraft/config/veinmining-client.toml
@@ -1081,7 +1193,30 @@
 !.minecraft/config/yigd.json
 !.minecraft/config/yosbr/
 .minecraft/config/yosbr/*
-!.minecraft/config/yosbr/fancymenu_data
+!.minecraft/config/yosbr/fancymenu_data/
+.minecraft/config/yosbr/fancymenu_data/*
+!.minecraft/config/yosbr/fancymenu_data/textures/
+.minecraft/config/yosbr/fancymenu_data/textures/*
+!.minecraft/config/yosbr/fancymenu_data/textures/backgrounds/
+.minecraft/config/yosbr/fancymenu_data/textures/backgrounds/*
+!.minecraft/config/yosbr/fancymenu_data/textures/backgrounds/loading_screen-remastered.png
+!.minecraft/config/yosbr/fancymenu_data/textures/backgrounds/loading_screen.png
+!.minecraft/config/yosbr/fancymenu_data/textures/backgrounds/separated.png
+!.minecraft/config/yosbr/fancymenu_data/textures/backgrounds/stronghold.png
+!.minecraft/config/yosbr/fancymenu_data/textures/icons/
+.minecraft/config/yosbr/fancymenu_data/textures/icons/*
+!.minecraft/config/yosbr/fancymenu_data/textures/icons/arrow.png
+!.minecraft/config/yosbr/fancymenu_data/textures/icons/arrow_alt.png
+!.minecraft/config/yosbr/fancymenu_data/textures/icons/blank.png
+!.minecraft/config/yosbr/fancymenu_data/textures/icons/curseforge.png
+!.minecraft/config/yosbr/fancymenu_data/textures/icons/discord.png
+!.minecraft/config/yosbr/fancymenu_data/textures/icons/exit.png
+!.minecraft/config/yosbr/fancymenu_data/textures/icons/issues.png
+!.minecraft/config/yosbr/fancymenu_data/textures/icons/menudeco.png
+!.minecraft/config/yosbr/fancymenu_data/textures/icons/performanceguide.png
+!.minecraft/config/yosbr/fancymenu_data/textures/icons/prominence_full.png
+!.minecraft/config/yosbr/fancymenu_data/textures/icons/prominence_textonly.png
+!.minecraft/config/yosbr/fancymenu_data/textures/icons/settings.png
 !.minecraft/config/yosbr/options.txt
 !.minecraft/config/ysns.json
 !.minecraft/config/zenith/
@@ -1099,29 +1234,32 @@
 !.minecraft/config/zenith_attributes.cfg
 !.minecraft/config/zoomify.json
 
-#Default Config Folder
+
+# DefaultConfigs Folder
 !.minecraft/defaultconfigs/
 .minecraft/defaultconfigs/*
 
-#Default config
-!.minecraft/defaultconfigs/veinmining-server.toml
-!.minecraft/defaultconfigs/tradingpost-server.toml
-!.minecraft/defaultconfigs/puzzlesapi-iteminteractions-server.toml
-!.minecraft/defaultconfigs/openpartiesandclaims-server.toml
-!.minecraft/defaultconfigs/easyanvils-server.toml
-!.minecraft/defaultconfigs/createoreexcavation-server.toml
-!.minecraft/defaultconfigs/create-server.toml
-!.minecraft/defaultconfigs/comforts-server.toml
+# DefaultConfigs
 !.minecraft/defaultconfigs/barteringstation-server.toml
+!.minecraft/defaultconfigs/comforts-server.toml
+!.minecraft/defaultconfigs/create-server.toml
+!.minecraft/defaultconfigs/createoreexcavation-server.toml
+!.minecraft/defaultconfigs/easyanvils-server.toml
+!.minecraft/defaultconfigs/openpartiesandclaims-server.toml
 !.minecraft/defaultconfigs/pickupnotifier/
 .minecraft/defaultconfigs/pickupnotifier/*
 !.minecraft/defaultconfigs/pickupnotifier/pickupnotifier-server.toml
+!.minecraft/defaultconfigs/puzzlesapi-iteminteractions-server.toml
+!.minecraft/defaultconfigs/tradingpost-server.toml
+!.minecraft/defaultconfigs/veinmining-server.toml
 
 
-#Shader Folder
+# Shaderpacks Folder
 !.minecraft/shaderpacks/
 .minecraft/shaderpacks/*
 
-#Shaderpacks
-!.minecraft/shaderpacks/TheIdkShader_pleaseSendHelp.zip
+# Shaderpacks
 !.minecraft/shaderpacks/ComplementaryReimagined_r5.1.1.zip
+!.minecraft/shaderpacks/TheIdkShader_pleaseSendHelp.zip
+
+
