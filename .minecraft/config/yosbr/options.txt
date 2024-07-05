@@ -42,7 +42,7 @@ ao:true
 prioritizeChunkUpdates:0
 biomeBlendRadius:2
 renderClouds:"true"
-resourcePacks:["vanilla","fabric","Moonlight Mods Dynamic Assets","file/MandalasGUI+Modded_Dakmode_v4.5.zip","minecraft:supporteatinganimation","seasons:seasonal_lush_caves","tinyskeletons:main","file/Prominent-UI-1.20.1.zip","file/Mandala_x_Prominent_UI.zip","file/Frosty-Deathchill.zip","file/Prominence-Custom-Lootr.zip","prominent:archon","file/[1.3] Enhanced Boss Bars.zip"]
+resourcePacks:["vanilla","fabric","Moonlight Mods Dynamic Assets","file/MandalasGUI+Modded_Dakmode_v4.5.zip","minecraft:supporteatinganimation","seasons:seasonal_lush_caves","tinyskeletons:main","prominent:archon","file/Enhanced_Boss_Bars.zip","file/Providence_Pack","betterbeds:connectedbeds"]
 incompatibleResourcePacks:[]
 lastServer:
 lang:en_us
@@ -92,12 +92,12 @@ key_key.left:key.keyboard.a
 key_key.back:key.keyboard.s
 key_key.right:key.keyboard.d
 key_key.jump:key.keyboard.space
-key_key.sneak:key.keyboard.left.shift
-key_key.sprint:key.keyboard.left.control
+key_key.sneak:key.keyboard.left.control
+key_key.sprint:key.keyboard.left.shift
 key_key.drop:key.keyboard.q
-key_key.inventory:key.keyboard.e
+key_key.inventory:key.keyboard.tab
 key_key.chat:key.keyboard.t
-key_key.playerlist:key.keyboard.tab
+key_key.playerlist:key.keyboard.unknown
 key_key.pickItem:key.mouse.middle
 key_key.command:key.keyboard.slash
 key_key.socialInteractions:key.keyboard.p

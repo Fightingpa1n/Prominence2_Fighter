@@ -2,7 +2,7 @@
 
 I:default_gui_scale = '-1';
 B:play_vanilla_menu_music = 'false';
-B:force_fullscreen = 'false';
+B:force_fullscreen = 'true';
 
 
 ##[customization]
@@ -24,11 +24,11 @@ B:game_intro_fade_out = 'true';
 
 ##[window]
 
-B:show_custom_window_icon = 'false';
-S:custom_window_icon_macos = '';
-S:custom_window_icon_32 = '/config/fancymenu/assets/ico/icon32x32.png';
-S:custom_window_title = 'Prominence II: Void's Invasion';
-S:custom_window_icon_16 = '/config/fancymenu/assets/ico/icon16x16.png';
+B:show_custom_window_icon = 'true';
+S:custom_window_icon_macos = '/config/fancymenu/assets/ico/icon_mid_macos.icns';
+S:custom_window_icon_32 = '/config/fancymenu/assets/ico/icon_mid.png';
+S:custom_window_title = 'Providence Ember Forge';
+S:custom_window_icon_16 = '/config/fancymenu/assets/ico/icon_small.png';
 
 
 ##[multiplayer_screen]
