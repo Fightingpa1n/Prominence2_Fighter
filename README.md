@@ -1,4 +1,4 @@
-# Prominence II [Fighter] Installer
+![Providence Title](https://github.com/Fightingpa1n/Providence_EmberForge/assets/161228185/211d844a-cdca-4e26-b3e0-da48701d2712)
 
 okay so this is the installer for the modpack.
 the rough idea is this script will be an exe in the end and if executed it will check if all required programs are installed.
@@ -14,4 +14,5 @@ also of note since the data files needed to build the installer are too big for 
       ├─── git_installer.exe | Git installer
       ├─── java_installer.exe | normal Java installer
       ├─── jdk_17_installer.exe | Java Development Kit installer
+      ├─── MultiMC.lnk | MultiMC shortcut
     

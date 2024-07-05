@@ -30,6 +30,8 @@ def check_if_mmc_installed() -> bool:
         return False
     if not os.path.exists(M.location_mmc_exe): #check for exe
         return False
+    if not os.path.exists(M.location_mmc_shortcut):
+        return False
     return True #true if everything is installed
 
 def check_if_modpack_installed() -> bool:
@@ -78,10 +80,10 @@ def copyFile(file: str, destination: str) -> bool:
 class InstallerWindow:
     def __init__(self, root):
         self.root = root
-        self.root.title("Prominece II [Fighter] Installer")
+        self.root.title("Providence Ember Forge Installer")
         self.root.geometry("500x300")
         self.root.resizable(False, False)
-        self.root.iconbitmap("icon.ico")
+        self.root.iconbitmap(M.path_app_icon)
 
         # dark mode
         self.root.tk_setPalette(background='#333333', foreground='white', activeBackground='#666666', activeForeground='white')
@@ -90,7 +92,7 @@ class InstallerWindow:
         self.frame = tk.Frame(self.root)
         self.frame.pack(padx=10, pady=10, fill=tk.BOTH, expand=True)
 
-        self.context_label = tk.Label(self.frame, text="Hello, this is the installer for Prominence II [Fighter].", font=("Arial", 13))
+        self.context_label = tk.Label(self.frame, text="Hello, this is the installer for Providence Ember Forge.", font=("Arial", 13))
         self.context_label.config(wraplength=470)
         self.context_label.pack()
 
@@ -174,6 +176,12 @@ class InstallerWindow:
             self.message("MultiMC not found,\nInstalling...")
             unpackZip(M.path_mmc_zip, M.location_mmc_dir)
             self.message("MultiMC installed!")
+
+        if not os.path.exists(M.location_mmc_shortcut):
+            self.message("Creating MultiMC shortcut...")
+            copyFile(M.path_mmc_shortcut, M.location_mmc_shortcut)
+            self.message("MultiMC shortcut created!")
+
         else:
             self.message("MultiMC is already installed\nMoving on...")
 

@@ -4,4 +4,4 @@ __pycache__
 *.spec
 data/*
 !data/mmc.zip
-!data/prominence_icon.png
+!data/providence_icon.png
