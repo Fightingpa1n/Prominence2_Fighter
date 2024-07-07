@@ -68,7 +68,7 @@ def start_modpack(): #start the modpack
     #check git
     print("Checking Modpack version...")
     os.chdir(location_modpack_dir)
-    subprocess.run(["git", "fetch", "origin", "modpack"], check=True)
+    subprocess.run(["git", "fetch"], check=True)
     result = subprocess.run(["git", "status", "-uno"], stdout=subprocess.PIPE, stderr=subprocess.PIPE)
     if b"Your branch is up to date" in result.stdout:
         print("Modpack is up to date.", 0.5)

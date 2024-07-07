@@ -127,5 +127,6 @@ def install_modpack():
     #now we can clone the repository
     try:
         subprocess.run(["git", "clone", "--branch", "modpack", M.modpack_repo, M.location_modpack_dir], check=True)
+        subprocess.run(["git", "config", "--global", "--add", "safe.directory", M.location_modpack_dir], check=True)
     except Exception as e:
         print(f"Failed to clone repository: {e}")
