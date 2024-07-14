@@ -1,6 +1,6 @@
 [general]
 	#The Application ID of the Discord App to use. Replace this with your client id from the discord dashboard to change the name of the app
-	applicationID = 1120045344919666718
+	applicationID = 1261913213411262525
 	#Enable/Disable the mod
 	enabled = true
 	#Enable/Disable debugging mode. WARNING: MAY CAUSE LOG SPAM!
@@ -16,17 +16,17 @@
 	#Enable/Disable the Game Loading Event
 	enabled = false
 	#The first line of text under the app name
-	description = "Minecraft is loading"
+	description = ""
 	#The second line of text under the app name
-	state = "Game Starting..."
+	state = ""
 	#The Asset ID/URL of the image to display as the large image
-	largeImageKey = ["mclogonew"]
+	largeImageKey = [""]
 	#The text that gets displayed when the large image is hovered
-	largeImageText = "It's Minecraft %mcver%, but modded"
+	largeImageText = ""
 	#The Asset ID/URL of the image to display as the small image
-	smallImageKey = ["mclogo"]
+	smallImageKey = [""]
 	#The text that gets displayed when the small image is hovered
-	smallImageText = "%mods% mods installed"
+	smallImageText = ""
 	#The buttons to display on Discord 
 	buttons = []
 
@@ -34,71 +34,71 @@
 	#Enable/Disable the Main Menu Event
 	enabled = true
 	#The first line of text under the app name
-	description = "In the main menu"
+	description = "In Main Menu"
 	#The second line of text under the app name
 	state = ""
 	#The Asset ID/URL of the image to display as the large image
-	largeImageKey = ["prominence"]
+	largeImageKey = ["icon"]
 	#The text that gets displayed when the large image is hovered
-	largeImageText = "Prominence II [FABRIC] 1.20"
+	largeImageText = "Providence Ember Forge"
 	#The Asset ID/URL of the image to display as the small image
-	smallImageKey = ["mclogo"]
+	smallImageKey = [""]
 	#The text that gets displayed when the small image is hovered
-	smallImageText = "Main menu"
+	smallImageText = ""
 	#The buttons to display on Discord 
 	buttons = []
 
 [server_list]
-	#Enable/Disable the Server List Event
+	#Enable/Disable the Game Loading Event
 	enabled = false
 	#The first line of text under the app name
-	description = "%player% is looking for a server"
+	description = ""
 	#The second line of text under the app name
-	state = "Searching for friends"
+	state = ""
 	#The Asset ID/URL of the image to display as the large image
-	largeImageKey = ["mclogonew"]
+	largeImageKey = [""]
 	#The text that gets displayed when the large image is hovered
-	largeImageText = "It's Minecraft %mcver%, but modded"
+	largeImageText = ""
 	#The Asset ID/URL of the image to display as the small image
-	smallImageKey = ["mclogo"]
+	smallImageKey = [""]
 	#The text that gets displayed when the small image is hovered
-	smallImageText = "%mods% mods installed"
+	smallImageText = ""
 	#The buttons to display on Discord 
 	buttons = []
 
 [realms_list]
-	#Enable/Disable the Realms Screen Event
+	#Enable/Disable the Game Loading Event
 	enabled = false
 	#The first line of text under the app name
-	description = "%player% is looking for a Realm"
+	description = ""
 	#The second line of text under the app name
-	state = "Browsing Realms"
+	state = ""
 	#The Asset ID/URL of the image to display as the large image
-	largeImageKey = ["mclogonew"]
+	largeImageKey = [""]
 	#The text that gets displayed when the large image is hovered
-	largeImageText = "It's Minecraft %mcver%, but modded"
+	largeImageText = ""
 	#The Asset ID/URL of the image to display as the small image
-	smallImageKey = ["mclogo"]
+	smallImageKey = [""]
 	#The text that gets displayed when the small image is hovered
-	smallImageText = "%mods% mods installed"
+	smallImageText = ""
 	#The buttons to display on Discord 
 	buttons = []
 
 [join_game]
-	#Enable/Disable the Join Game Event
+	#Enable/Disable the Game Loading Event
 	enabled = false
 	#The first line of text under the app name
-	description = "%player% is joining a game"
+	description = ""
 	#The second line of text under the app name
-	state = "Joining Game"
+	state = ""
 	#The Asset ID/URL of the image to display as the large image
-	largeImageKey = ["mclogonew"]
+	largeImageKey = [""]
 	#The text that gets displayed when the large image is hovered
-	largeImageText = "It's Minecraft %mcver%, but modded"
+	largeImageText = ""
 	#The Asset ID/URL of the image to display as the small image
-	smallImageKey = ["mclogo"]
+	smallImageKey = [""]
 	#The text that gets displayed when the small image is hovered
-	smallImageText = "%mods% mods installed"
+	smallImageText = ""
 	#The buttons to display on Discord 
 	buttons = []
 
@@ -106,17 +106,17 @@
 	#Enable/Disable the Single Player Event
 	enabled = true
 	#The first line of text under the app name
-	description = "In Singleplayer"
+	description = "In Singleplayer World %savename%"
 	#The second line of text under the app name
-	state = ""
+	state = "dim:[%world%] | biome:[%biome%] | whtr:[%weather%] | day:[%day%] | time:[%gametime%]"
 	#The Asset ID/URL of the image to display as the large image
-	largeImageKey = ["prominence"]
+	largeImageKey = ["icon"]
 	#The text that gets displayed when the large image is hovered
-	largeImageText = "Prominence II [FABRIC] 1.20"
+	largeImageText = "Providence Ember Forge"
 	#The Asset ID/URL of the image to display as the small image
-	smallImageKey = ["mclogo"]
+	smallImageKey = ["%playerhead%"]
 	#The text that gets displayed when the small image is hovered
-	smallImageText = "at %world%"
+	smallImageText = "under construction"
 	#The buttons to display on Discord 
 	buttons = []
 
@@ -124,52 +124,52 @@
 	#Enable/Disable the Multi Player Event
 	enabled = true
 	#The first line of text under the app name
-	description = "In a multiplayer server"
+	description = "Playing on %servername% | %players%/%maxplayers% players online"
 	#The second line of text under the app name
-	state = ""
+	state = "dimension:[%world%] | biome:[%biome%] | time:[%gametime%]"
 	#The Asset ID/URL of the image to display as the large image
-	largeImageKey = ["prominence"]
+	largeImageKey = ["icon"]
 	#The text that gets displayed when the large image is hovered
-	largeImageText = "Prominence II [FABRIC] 1.20"
+	largeImageText = "Providence Ember Forge"
 	#The Asset ID/URL of the image to display as the small image
-	smallImageKey = ["mclogo"]
+	smallImageKey = ["%servericon%"]
 	#The text that gets displayed when the small image is hovered
-	smallImageText = "Playing on %servername% with %players% players"
+	smallImageText = "%motd%"
 	#The buttons to display on Discord 
 	buttons = []
 
 [realms]
-	#Enable/Disable the Realms Game Event
+	#Enable/Disable the Game Loading Event
 	enabled = false
 	#The first line of text under the app name
-	description = "Playing on %realmname%"
+	description = ""
 	#The second line of text under the app name
-	state = "Playing on a Realm"
+	state = ""
 	#The Asset ID/URL of the image to display as the large image
-	largeImageKey = ["mclogonew"]
+	largeImageKey = [""]
 	#The text that gets displayed when the large image is hovered
-	largeImageText = "It's Minecraft %mcver%, but modded"
+	largeImageText = ""
 	#The Asset ID/URL of the image to display as the small image
-	smallImageKey = ["mclogo"]
+	smallImageKey = [""]
 	#The text that gets displayed when the small image is hovered
-	smallImageText = "%realmdescription%"
+	smallImageText = ""
 	#The buttons to display on Discord 
 	buttons = []
 
 [generic]
 	#The first line of text under the app name
-	description = "Playing Prominence"
+	description = ""
 	#The second line of text under the app name
 	state = ""
 	#The Asset ID/URL of the image to display as the large image
-	largeImageKey = ["prominence"]
+	largeImageKey = ["icon"]
 	#The text that gets displayed when the large image is hovered
-	largeImageText = "Prominence II [FABRIC]"
+	largeImageText = "Providence Ember Forge"
 	#The Asset ID/URL of the image to display as the small image
-	smallImageKey = ["mclogo"]
+	smallImageKey = [""]
 	#The text that gets displayed when the small image is hovered
 	smallImageText = ""
-	#The buttons to display on Discord 
+	#The buttons to display on Discord
 	buttons = []
 
 [custom]
