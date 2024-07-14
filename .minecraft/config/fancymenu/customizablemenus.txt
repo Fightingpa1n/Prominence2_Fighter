@@ -183,3 +183,6 @@ net.minecraft.class_500 {
 net.minecraft.class_3928 {
 }
 
+net.minecraft.class_458 {
+}
+
