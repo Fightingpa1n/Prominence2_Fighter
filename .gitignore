@@ -92,6 +92,7 @@
 !.minecraft/mods/convenientdecor-0.3.0.jar
 !.minecraft/mods/Copycats-fabric.1.20.1-1.2.6.jar
 !.minecraft/mods/coroutil-fabric-1.20.1-1.3.5.jar
+!.minecraft/mods/cpm-svc-compat-1.1.0.jar
 !.minecraft/mods/CraterLib-fabric-1.20-1.0.2.jar
 !.minecraft/mods/create-fabric-0.5.1-f-build.1417+mc1.20.1.jar
 !.minecraft/mods/createaddition-fabric+1.20.1-1.2.3.jar
@@ -129,6 +130,7 @@
 !.minecraft/mods/emitrades-fabric-1.2.1+mc1.20.1.jar
 !.minecraft/mods/emi_enchanting-0.1.0+1.20.1.jar
 !.minecraft/mods/emi_loot-0.6.6+1.20.1.jar
+!.minecraft/mods/emotecraft-for-MC1.20.1-2.2.7-b.build.50-fabric.jar
 !.minecraft/mods/ends_delight-fabric-1.20.1-1.0.1.jar
 !.minecraft/mods/entityculling-fabric-1.6.2-mc1.20.1.jar
 !.minecraft/mods/entity_model_features_fabric_1.20.1-1.1.0.jar
@@ -302,6 +304,8 @@
 !.minecraft/mods/redirector-1.20.1-4.4.0-fabric.jar
 !.minecraft/mods/reeses_sodium_options-1.6.5+mc1.20.1-build.95.jar
 !.minecraft/mods/RegionsUnexploredFabric-0.5.5+1.20.1.jar
+!.minecraft/mods/replaymod-1.20.1-2.6.18.jar
+!.minecraft/mods/replayvoicechat-1.20.1-1.3.3.jar
 !.minecraft/mods/repurposed_structures-7.1.11+1.20.1-fabric.jar
 !.minecraft/mods/resourcefulconfig-fabric-1.20.1-2.1.0.jar
 !.minecraft/mods/resourcefullib-fabric-1.20.1-2.1.20.jar
@@ -326,6 +330,7 @@
 !.minecraft/mods/sodium-extra-0.5.1+mc1.20.1-build.112.jar
 !.minecraft/mods/sodium-fabric-mc1.20.1-0.5.3.jar
 !.minecraft/mods/soulslike-weaponry-1.1.3-1.20-fabric.jar
+!.minecraft/mods/sound-physics-remastered-fabric-1.20.1-1.4.2.jar
 !.minecraft/mods/spark-1.10.53-fabric.jar
 !.minecraft/mods/spellbladenext-1.7.2.1.jar
 !.minecraft/mods/spell_engine-0.12.5+1.20.1.jar
@@ -359,12 +364,14 @@
 !.minecraft/mods/trinkets-3.7.1.jar
 !.minecraft/mods/twigs-3.1.0-fabric.jar
 !.minecraft/mods/unsafe-world-random-access-detector-1.1.0.jar
+!.minecraft/mods/vcinteraction-1.20.1-1.0.5.jar
 !.minecraft/mods/veinmining-fabric-1.3.1+1.20.1.jar
 !.minecraft/mods/villagernames-1.20.1-7.0.jar
 !.minecraft/mods/VillagersPlus_2.1_(FABRIC)_for_1.20.1.jar
 !.minecraft/mods/visuality-0.7.1+1.20.jar
 !.minecraft/mods/VisualWorkbench-v8.0.0-1.20.1-Fabric.jar
 !.minecraft/mods/vivecraft-1.20.1-1.1.11-fabric.jar
+!.minecraft/mods/voicechat-fabric-1.20.1-2.5.19.jar
 !.minecraft/mods/VR-Combat_v1.0.2_Fabric_ALL.jar
 !.minecraft/mods/watut-fabric-1.20.1-1.0.12.jar
 !.minecraft/mods/windchimes-1.2.4+1.20.jar
