@@ -1,0 +1,11 @@
+{
+    "itemgroup.providence": "Providence",
+    
+    "item.providence.owl_spawn_egg": "Owl Spawnegg",
+    "item.providence.green_energy_spear": "Green Energy Spear",
+    
+    "entity.providence.owl": "Owl",
+    
+    "key.category.providence": "Providence",
+    "key.providence.skilltree": "Open Skill Tree"
+}

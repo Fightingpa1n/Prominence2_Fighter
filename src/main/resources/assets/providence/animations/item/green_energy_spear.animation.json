@@ -1,0 +1,53 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"idle": {
+			"loop": true,
+			"animation_length": 6,
+			"bones": {
+				"ring": {
+					"rotation": {
+						"0.0": {
+							"vector": [5.019, -4.98093, -12]
+						},
+						"6.0": {
+							"vector": [5.019, 355.0191, -12.45]
+						}
+					}
+				},
+				"crystal": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, -45, 0]
+						},
+						"6.0": {
+							"vector": [0, 660, 0]
+						}
+					},
+					"position": {
+						"0.0": {
+							"vector": [0, 0.25, 0]
+						},
+						"3.0": {
+							"vector": [0, -0.25, 0]
+						},
+						"6.0": {
+							"vector": [0, 0.25, 0]
+						}
+					}
+				},
+				"ring_2": {
+					"rotation": {
+						"0.0": {
+							"vector": [-8.77883, 27.14597, -2.78565]
+						},
+						"6.0": {
+							"vector": [-8.7788, 377.5, -2.7856]
+						}
+					}
+				}
+			}
+		}
+	},
+	"geckolib_format_version": 2
+}

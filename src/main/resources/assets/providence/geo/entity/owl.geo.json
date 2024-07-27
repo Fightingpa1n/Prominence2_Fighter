@@ -1,0 +1,121 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.unknown",
+				"texture_width": 32,
+				"texture_height": 64,
+				"visible_bounds_width": 2,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [0, 0.75, 0]
+			},
+			"bones": [
+				{
+					"name": "owl",
+					"pivot": [0, 6, 0]
+				},
+				{
+					"name": "body",
+					"parent": "owl",
+					"pivot": [0, 1.77691, 0.24263],
+					"cubes": [
+						{"origin": [-3, 1.75, -2.5], "size": [6, 6, 5], "uv": [0, 33]}
+					]
+				},
+				{
+					"name": "tail",
+					"parent": "body",
+					"pivot": [0, 1.75, 2.5],
+					"cubes": [
+						{"origin": [-3, 0.75, 2.5], "size": [6, 1, 0], "uv": [10, 44]}
+					]
+				},
+				{
+					"name": "wing_1",
+					"parent": "body",
+					"pivot": [-3.5, 7.75, 0.5],
+					"cubes": [
+						{"origin": [-4, 2.25, -2], "size": [1, 6, 5], "uv": [0, 21]},
+						{"origin": [-4, 1.25, -2], "size": [0, 1, 5], "uv": [0, 27]}
+					]
+				},
+				{
+					"name": "wing_2",
+					"parent": "body",
+					"pivot": [3.5, 7.75, 0.5],
+					"cubes": [
+						{"origin": [3, 2.25, -2], "size": [1, 6, 5], "uv": [12, 21]},
+						{"origin": [4, 1.25, -2], "size": [0, 1, 5], "uv": [13, 27]}
+					]
+				},
+				{
+					"name": "neck",
+					"parent": "body",
+					"pivot": [0, 7.75, 0],
+					"cubes": [
+						{"origin": [-3.5, 7, -3], "size": [7, 3, 6], "uv": [0, 11]},
+						{"origin": [-2.5, 6, -3], "size": [5, 1, 0], "uv": [7, 20]}
+					]
+				},
+				{
+					"name": "back_feathers",
+					"parent": "neck",
+					"pivot": [0.5, 7, 3],
+					"cubes": [
+						{"origin": [-3.5, 6, 3], "size": [7, 1, 0], "uv": [12, 20]}
+					]
+				},
+				{
+					"name": "head",
+					"parent": "neck",
+					"pivot": [0, 9, 0],
+					"cubes": [
+						{"origin": [-3, 9, -2.5], "size": [6, 5, 5], "uv": [0, 1]},
+						{"origin": [-3, 14, -2.5], "size": [6, 1, 0], "uv": [5, 0]}
+					]
+				},
+				{
+					"name": "beak",
+					"parent": "head",
+					"pivot": [0, 10.75, -2.5],
+					"cubes": [
+						{"origin": [-0.5, 9.25, -3.25], "size": [1, 2, 1], "uv": [1, 3]}
+					]
+				},
+				{
+					"name": "leg_1",
+					"parent": "owl",
+					"pivot": [-1.5, 1.75, 0.25],
+					"cubes": [
+						{"origin": [-2, 0, -0.25], "size": [1, 2, 1], "uv": [4, 44]}
+					]
+				},
+				{
+					"name": "foot_1",
+					"parent": "leg_1",
+					"pivot": [-1.5, 0, 0.5],
+					"cubes": [
+						{"origin": [-2.5, 0, -1.5], "size": [2, 0, 2], "uv": [2, 47]}
+					]
+				},
+				{
+					"name": "leg_2",
+					"parent": "owl",
+					"pivot": [1.5, 1.75, 0.25],
+					"cubes": [
+						{"origin": [1, 0, -0.25], "size": [1, 2, 1], "uv": [0, 44]}
+					]
+				},
+				{
+					"name": "foot_2",
+					"parent": "leg_2",
+					"pivot": [1.5, 0, 0.5],
+					"cubes": [
+						{"origin": [0.5, 0, -1.5], "size": [2, 0, 2], "uv": [-2, 47]}
+					]
+				}
+			]
+		}
+	]
+}

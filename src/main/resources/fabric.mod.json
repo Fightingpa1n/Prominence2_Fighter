@@ -18,6 +18,9 @@
 		"main": [
 			"net.fightingpainter.providence.main.Main"
 		],
+		"client": [
+			"net.fightingpainter.providence.main.Client"
+		],
 		"fabric-datagen": [
 			"net.fightingpainter.providence.main.DataGenerator"
 		]

@@ -1,9 +1,16 @@
 package net.fightingpainter.providence.main;
 
 import net.fabricmc.api.ModInitializer;
-
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+
+import com.eliotlash.mclib.math.functions.classic.Mod;
+
+import net.fightingpainter.providence.main.items.ModItems;
+import net.fightingpainter.providence.main.util.ModRegister;
+import net.fightingpainter.providence.main.util.Register;
+import net.fightingpainter.providence.main.blocks.ModBlocks;
+import net.fightingpainter.providence.main.entities.ModEntities;
 
 public class Main implements ModInitializer {
 	public static final String MOD_ID = "providence";
@@ -11,10 +18,16 @@ public class Main implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-		// This code runs as soon as Minecraft is in a mod-load-ready state.
-		// However, some things (like resources) may still be uninitialized.
-		// Proceed with mild caution.
+		LOGGER.info("Initializing Providence Mod...");
 
-		LOGGER.info("Hello Fabric world!");
+		ModEntities.registerEntities(); //register entities
+		ModEntities.registerSpawnEggs(); //register spawn eggs
+		
+		ModItems.registerItems(); //register items
+		ModBlocks.registerBlocks(); //register blocks
+		Register.registerItemGroup(); //register item group
+		
+		ModRegister.registerEvents(); //register events
+		ModRegister.registerCommands(); //register commands
 	}
 }

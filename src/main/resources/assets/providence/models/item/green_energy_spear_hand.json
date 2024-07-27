@@ -1,0 +1,101 @@
+{
+  "credit": "Made with Blockbench",
+  "parent": "builtin/entity",
+  "texture_size": [
+    16,
+    32
+  ],
+  "textures": {
+    "particle": "providence:item/green_energy_spear_item"
+  },
+  "display": {
+    "thirdperson_righthand": {
+      "rotation": [
+        90,
+        -81.75,
+        90
+      ],
+      "translation": [
+        -1,
+        5.75,
+        1.5
+      ]
+    },
+    "thirdperson_lefthand": {
+      "rotation": [
+        90,
+        -81.75,
+        90
+      ],
+      "translation": [
+        -1,
+        5.75,
+        1.5
+      ]
+    },
+    "firstperson_righthand": {
+      "rotation": [
+        -14,
+        89,
+        0
+      ],
+      "translation": [
+        2,
+        -1.5,
+        0
+      ]
+    },
+    "firstperson_lefthand": {
+      "rotation": [
+        -14,
+        89,
+        0
+      ],
+      "translation": [
+        2,
+        -1.5,
+        0
+      ]
+    },
+    "gui": {
+      "rotation": [15, -25, -5],
+      "translation": [2, 3, 0],
+      "scale": [0.65, 0.65, 0.65]
+    },
+    "ground": {
+      "rotation": [
+        0,
+        -78,
+        50
+      ],
+      "scale": [
+        0.25,
+        0.25,
+        0.25
+      ]
+    },
+    "head": {
+      "rotation": [
+        27.33,
+        -1.45,
+        103
+      ],
+      "translation": [
+        -4.25,
+        1.25,
+        -1
+      ]
+    },
+    "fixed": {
+      "rotation": [0, 0, 45],
+      "translation": [0, 0, 0.5],
+      "scale": [0.56,0.56,0.56]
+    }
+  },
+  "overrides": [
+    {
+      "predicate": {"throwing": 1},
+      "model": "providence:item/green_energy_spear_throw"
+    }
+  ]
+}
