@@ -4,7 +4,7 @@ import os
 
 # Special folders will get added in a way where we just accept any content instead of going through it
 special_resourcepacks = ["Providence_Pack"]
-special_configs = ["fancymenu", "ftbquests"]
+special_configs = ["fancymenu", "ftbquests", "puffish_skills"]
 
 # ================================================================================================== #
 
